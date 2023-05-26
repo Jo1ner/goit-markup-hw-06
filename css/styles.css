@@ -826,11 +826,11 @@ footer .social-networks-link:focus {
   color: var(--accent-color);
 }
 
-.contacn-form-checkbox-wrapper {
-  display: flex;
-  align-items: center;
-  margin-top: 16px;
-  margin-bottom: 24px;
+.contact-form-checkbox-wrapper {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--light-slate);
 }
 
 .visually-hidden {
@@ -839,13 +839,15 @@ footer .social-networks-link:focus {
 }
 
 .contact-form-own-checkbox {
-  padding: 4px 3px 4px 3px;
   width: 16px;
   height: 16px;
   margin-right: 8px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid var(--secondary-text-color);
   border-radius: 2px;
-  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
 }
 
 .contact-form-own-icon {
