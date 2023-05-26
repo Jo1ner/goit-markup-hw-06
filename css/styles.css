@@ -751,7 +751,7 @@ footer .social-networks-link:focus {
 }
 
 .contact-form-field {
-  margin-bottom: 26px;
+  margin-bottom: 16px;
 }
 
 .contact-form-field {
@@ -833,7 +833,7 @@ footer .social-networks-link:focus {
   margin-bottom: 24px;
 }
 
-.contact-form-checkbox {
+.visually-hidden {
   appearance: none;
   position: absolute;
 }
