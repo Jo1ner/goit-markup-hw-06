@@ -822,6 +822,10 @@ footer .social-networks-link:focus {
   border-color: var(--accent-color);
 }
 
+.contact-form-checkbox {
+  margin-bottom: 24px;
+}
+
 .contact-form-link {
   color: var(--accent-color);
 }
