@@ -389,7 +389,11 @@
           <p class="social-text footer-form-title">Subscribe</p>
           <form class="footer-subscribe-form">
             <label class="footer-form-wrapper">
-              <input class="footer-form-input" name="user_email" type="email" placeholder="E-mail"
+              <input
+                class="footer-form-input"
+                name="footer-user-email"
+                type="email"
+                placeholder="E-mail"
             /></label>
             <button class="footer-form-btn" type="submit">
               Subscribe
@@ -404,6 +408,11 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal-window">
+        <button type="button" class="modal-close-btn" data-modal-close>
+          <svg class="modal-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-btn"></use>
+          </svg>
+        </button>
         <p class="modal-contact-form-title">Leave your contacts and we will call you back</p>
         <form class="modal-contact-form">
           <label class="contact-form-field">
@@ -465,11 +474,6 @@
           </label>
           <button class="contact-form-submit" type="submit">Send</button>
         </form>
-        <button type="button" class="modal-close-btn" data-modal-close>
-          <svg class="modal-close-icon" width="8" height="8">
-            <use href="./images/icons.svg#icon-close-btn"></use>
-          </svg>
-        </button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
