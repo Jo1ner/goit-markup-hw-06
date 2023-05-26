@@ -4,9 +4,10 @@ Primary Brand IRIS  #4D5AE5;
 hover #404BBF
 CLOUD #F4F4FD
 H1  #FFFFFF
- */
+/* LIGHT SLATE */
+color: #8e8f99;
 
-body {
+*/ body {
   color: #434455;
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
@@ -28,6 +29,7 @@ body {
   --light-mode: #f4f4fd;
   --white-color: #ffffff;
   --modal-background: #fcfcfc;
+  --light-slate: #8e8f99;
 }
 
 .link {
@@ -460,6 +462,59 @@ footer .social-networks-link:hover,
 footer .social-networks-link:focus {
   background-color: #31d0aa;
 }
+
+.footer-subscribe-form {
+  margin-left: 80px;
+}
+
+.footer-form-title {
+  display: block;
+}
+
+.footer-form-input {
+  background-color: transparent;
+  min-width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-right: 23px;
+}
+
+.footer-form-input::placeholder {
+  color: var(--white-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+
+.footer-form-btn {
+  position: relative;
+  padding: 8px 24px;
+  height: 40px;
+  min-width: 165px;
+  text-align: left;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  border: none;
+}
+.footer-form-icon {
+  position: absolute;
+  top: 50%;
+  right: 24px;
+  transform: translateY(-50%);
+
+  fill: var(--white-color);
+}
+
 /* ==================  PORTFOLIO.HTML ================= */
 
 .main-section {
@@ -592,7 +647,7 @@ footer .social-networks-link:focus {
   transform: translateY(0%);
 }
 
-/* =========================BACKDROP====================== */
+/* =========================BACKDROP and MODAL====================== */
 
 .backdrop {
   position: fixed;
@@ -610,6 +665,8 @@ footer .social-networks-link:focus {
 }
 
 .modal-window {
+  padding: 72px 24px 24px 24px;
+
   min-height: 576px;
   position: absolute;
   top: 50%;
@@ -655,4 +712,46 @@ footer .social-networks-link:focus {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+
+.contact-form-field,
+.contact-form-checkbox-wrapper {
+  display: block;
+}
+
+.modal-contact-form-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.contact-form-field {
+  margin-bottom: 26px;
+}
+
+.contact-form-field-desc {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: var(--light-slate);
+  margin-bottom: 4px;
+}
+
+.contact-form-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  padding-left: 38px;
 }
